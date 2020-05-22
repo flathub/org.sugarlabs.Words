@@ -61,7 +61,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/words-activity.git",
-                    "commit": "0b0974289acb4f8331be26ea2b5854c6dde8d437"
+                    "tag": "v24",
+                    "commit": "723bca602d3ea1dff58476dcb20c4408e5639934"
                 },
                 {
                     "type": "patch",
@@ -70,14 +71,6 @@
                 {
                     "type": "patch",
                     "path": "words-info.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "words-fix-espeak-ng.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "words-fix-hin-ara-speech.patch"
                 }
             ],
             "post-install": [
