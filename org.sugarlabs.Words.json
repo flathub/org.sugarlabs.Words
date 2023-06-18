@@ -65,7 +65,11 @@
                     "type": "git",
                     "url": "https://github.com/sugarlabs/words-activity.git",
                     "tag": "v24",
-                    "commit": "723bca602d3ea1dff58476dcb20c4408e5639934"
+                    "commit": "723bca602d3ea1dff58476dcb20c4408e5639934",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 },
                 {
                     "type": "patch",
