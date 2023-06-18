@@ -1,0 +1,13 @@
+diff --git a/wordsactivity.py b/wordsactivity.py
+index 5ce524d..85c60f1 100644
+--- a/wordsactivity.py
++++ b/wordsactivity.py
+@@ -20,7 +20,7 @@
+ import gi
+ gi.require_version('Gdk', '3.0')
+ gi.require_version('Gtk', '3.0')
+-gi.require_version('WebKit2', '4.0')
++gi.require_version('WebKit2', '4.1')
+ 
+ from gi.repository import GLib
+ from gi.repository import GObject

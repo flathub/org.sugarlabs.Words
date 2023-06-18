@@ -74,6 +74,10 @@
                 {
                     "type": "patch",
                     "path": "words-info.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "words-webkitfix.patch"
                 }
             ],
             "post-install": [
