@@ -9,7 +9,8 @@ To know more refer https://github.com/sugarlabs/words-activity
 ```
 git clone https://github.com/flathub/org.sugarlabs.Words.git
 cd org.sugarlabs.Words
-flatpak -y --user install org.gnome.{Platform,Sdk}//44
+flatpak -y --user install flathub org.gnome.{Platform,Sdk}//46
+flatpak -y --user install org.sugarlabs.BaseApp//24.04
 flatpak-builder --user --force-clean --install build org.sugarlabs.Words.json
 ```
 
